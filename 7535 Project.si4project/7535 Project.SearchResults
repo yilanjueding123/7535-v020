@@ -1,0 +1,7 @@
+---- led_green_on Matches (6 in 3 files) ----
+set_led_mode in ap_peripheral_handling.c (application\task_peripheral_handling\src) : //				led_green_on(); //红外灯开
+ap_peripheral_handling.c (application\task_peripheral_handling\src) line 923 : void led_green_on(void)
+LED_blanking_isr in ap_peripheral_handling.c (application\task_peripheral_handling\src) : 			led_green_on();
+LED_blanking_isr in ap_peripheral_handling.c (application\task_peripheral_handling\src) : 				led_green_on();
+ap_peripheral_handling.h (application\task_peripheral_handling\inc) line 56 : extern void led_green_on(void);
+ap_video_record.c (application\task_state_handling\state_video_record\src) line 376 : extern void led_green_on(void);
